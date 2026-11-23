@@ -1,6 +1,5 @@
 // logger.ino - prints status messages to the Serial Monitor (9600 baud)
 
-// TODO Task 4 (Project Manager): add modeName() here.
 // TODO Task 4 (Tim Grant): add modeName() here.
 const char* modeName(currentMode()) {
   switch (mode) {
@@ -15,8 +14,6 @@ const char* modeName(currentMode()) {
 
 
 void logStatus(int light) {
-  // TODO Task 4 (Project Manager): print one tidy status line twice per second.
-  Serial.println(light);
   unsigned long delay=500;
   unsigned long last=millis()
   if (millis()>last+delay){
