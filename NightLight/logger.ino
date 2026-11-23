@@ -21,8 +21,8 @@ void logStatus(int light) {
     Serial.print(modeName());
     Serial.print("Light=");
     Serial.print(light);
-    Serial.print("led=")
-    Serial.print(ledBrightness)
+    Serial.print("led=");
+    Serial.print(ledBrightness);
       }
   
 }
