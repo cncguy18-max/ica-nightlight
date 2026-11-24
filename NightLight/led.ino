@@ -21,4 +21,4 @@ void fadeTowards(int target) {
   delay(15);
 }
 
-// TODO Task 7 (Developer C): add blinkLed() below this line.
+// TODO Task 7 (Developer C): add blinkLed() below this line
